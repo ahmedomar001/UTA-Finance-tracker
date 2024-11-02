@@ -1,12 +1,23 @@
 import React from 'react';
-import './App.css';
-import HomePage from './pages/HomePage'; // Make sure this path matches where your HomePage component is located
+import './App.css';  // Ensure this line is correctly added
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import HomePage from './pages/HomePage';
+import DiscountsPage from './pages/DiscountsPage';
+import ScholarshipPage from './pages/ScholarshipPage';
+import NavBar from './components/NavBar';
+import MyComponent from './components/MyComponent';  
 
 function App() {
   return (
-    <div className="App">
-      <HomePage />
-    </div>
+    <Router>
+      <NavBar />
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/discounts" element={<DiscountsPage />} />
+        <Route path="/scholarships" element={<ScholarshipPage />} />
+        <Route path="/mycomponent" element={<MyComponent />} />
+      </Routes>
+    </Router>
   );
 }
 
