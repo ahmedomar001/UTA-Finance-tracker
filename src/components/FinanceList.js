@@ -1,12 +1,13 @@
 import React from 'react';
 
-const FinanceList = () => {
-  // This will eventually take props to list financial entries
+const FinanceList = ({ transactions }) => {
   return (
     <ul>
-      {/* Placeholder items */}
-      <li>Expense: $50 for groceries</li>
-      <li>Income: $500 from freelance work</li>
+      {transactions.map((transaction, index) => (
+        <li key={index}>
+          {transaction.type}: ${transaction.amount} - {transaction.description}
+        </li>
+      ))}
     </ul>
   );
 }
