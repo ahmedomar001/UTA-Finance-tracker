@@ -1,0 +1,191 @@
+[
+    {
+        "id": 1,
+        "name": "COE - Aerospace Engineering CFD Endowment Fund",
+        "department": "Aerospace Engineering",
+        "program": "Graduate",
+        "field_of_study": "Computational Fluid Dynamics"
+    },
+    {
+        "id": 2,
+        "name": "COE - Aerospace Engineering Endowed Scholarship",
+        "department": "Aerospace Engineering"
+    },
+    {
+        "id": 3,
+        "name": "COE - Ahsan Family Endowed Scholarship in Civil Engineering",
+        "department": "Civil Engineering",
+        "gpa_minimum": 2.5,
+        "financial_need": true,
+        "career_interest": ["Structural Engineering", "Bridge Engineering"]
+    },
+    {
+        "id": 4,
+        "name": "COE - Alan H. Plummer and John L. Mancini Scholarship",
+        "department": ["Civil Engineering", "Environmental Engineering"],
+        "gpa_minimum": 2.5,
+        "citizenship_status": ["US Citizen", "Permanent Resident"],
+        "career_interest": ["Water", "Environmental Fields"]
+    },
+    {
+        "id": 5,
+        "name": "COE - Albert H. and Lee B. Halff Endowed Scholarship",
+        "department": ["Civil Engineering", "Environmental Engineering"],
+        "program": "Professional",
+        "citizenship_status": ["US Citizen", "Permanent Resident"],
+        "preference": "Graduate"
+    },
+    {
+        "id": 6,
+        "name": "COE - Alfred R. and Janet H. Potvin Distinguished Undergrad in EE",
+        "department": "Electrical Engineering",
+        "program": ["Junior", "Senior"],
+        "birthplace_state": "Texas",
+        "gpa_minimum": null,
+        "competitive_criteria": "asc"
+    },
+    {
+        "id": 7,
+        "name": "COE - Alfred R. and Janet H. Potvin Outstanding Bioengineering Stu",
+        "department": "Bioengineering",
+        "program": ["BS", "MS", "PhD"],
+        "scholarship_type": "Research",
+        "number_of_awards": "desc"
+    },
+    {
+        "id": 8,
+        "name": "COE - Alvin E. Betzel, Sr. Scholarship Fund",
+        "department": "Mechanical Engineering",
+        "financial_need": true,
+        "university_status": "Good Standing"
+    },
+    {
+        "id": 9,
+        "name": "COE - American Concrete Institute Northeast Texas Chapter Endowed",
+        "department": "Civil Engineering",
+        "gpa_minimum": 3.0,
+        "citizenship_status": ["US Citizen", "Permanent Resident"],
+        "concrete_emphasis": true
+    },
+    {
+        "id": 10,
+        "name": "COE - Arthur R. Poor Graduate Scholarship in Civil Engineering",
+        "department": "Civil Engineering",
+        "program": ["Master's", "PhD"],
+        "gpa_minimum": {
+            "Master's": 3.2,
+            "PhD": 3.5
+        },
+        "admission_status": "Unconditional",
+        "preference": "US Citizen or Permanent Resident"
+    },
+    {
+        "id": 11,
+        "name": "COE - Barbara and Vasant Prabhu Sch End by his Graduate Students",
+        "department": "Electrical Engineering",
+        "gpa_minimum": 3.0,
+        "student_type": ["Undergraduate", "Graduate"],
+        "international_student": true,
+        "in_state_eligibility": false
+    },
+    {
+        "id": 12,
+        "name": "COE - Bell Helicopter Endowed Scholarship for Engineering",
+        "college": "Engineering",
+        "program": ["Graduate", "Undergraduate"]
+    },
+    {
+        "id": 13,
+        "name": "COE - Bernard and Ann Svihel Memorial Scholarship Endowment",
+        "department": "Electrical Engineering",
+        "enrollment_status": ["Full-Time", "Part-Time"],
+        "gpa_minimum": null,
+        "financial_need": true
+    },
+    {
+        "id": 14,
+        "name": "COE - Bettye M. Rady Scholarship Fund",
+        "college": "Engineering",
+        "preference": "Female"
+    },
+    {
+        "id": 15,
+        "name": "COE - Bill and Marsha Carroll Endowed Scholarship",
+        "college": "Engineering",
+        "transfer_status": "Community College in Texas",
+        "gender_preference": ["Female", null],
+        "underrepresentation": true
+    },
+    {
+        "id": 16,
+        "name": "COE - Carolyn and Dan Carey Endowed Scholarship for Engineering",
+        "college": "Engineering",
+        "program": "Undergraduate",
+        "citizenship_status": ["US Citizen", "Permanent Resident"],
+        "financial_need": true
+    },
+    {
+        "id": 17,
+        "name": "COE - Chance Vought Engineering and Science Endowment",
+        "college": "Engineering",
+        "financial_need": true,
+        "citizenship_status": ["US Citizen", "Permanent Resident"],
+        "gpa_minimum": 2.75,
+        "year": ["Sophomore", "Junior", "Senior"],
+        "department": ["Chemistry", "Physics", "Math"],
+        "location_preference": "North Texas"
+    },
+    {
+        "id": 18,
+        "name": "COE - Charles H. and Harry M. Goodman MAE Scholarship Fund",
+        "department": ["Mechanical Engineering", "Aerospace Engineering"],
+        "gpa_minimum": 3.0
+    },
+    {
+        "id": 19,
+        "name": "COE - Charlie and Mollie Daniels Family Endowed Scholarship",
+        "college": "Engineering",
+        "gpa_minimum": 2.75,
+        "nsbe_membership": true,
+        "program": ["Undergraduate", "Graduate"],
+        "program_year": "Junior",
+        "financial_need": true
+    },
+    {
+        "id": 20,
+        "name": "COE - Charlie M. Moore Scholarship Fund",
+        "department": "Civil Engineering",
+        "year_completed": 1,
+        "institution": "UTA"
+    },
+    {
+        "id": 21,
+        "name": "COE - Clarke Benham Excellence Scholarship in Engineering",
+        "college": "Engineering",
+        "credit_hours": 60,
+        "financial_need": true,
+        "gpa_minimum": 3.0
+    },
+    {
+        "id": 22,
+        "name": "COE - Construction Research Center UTA Student Scholarship",
+        "college": "Engineering",
+        "program": ["Undergraduate", "Graduate"],
+        "interest_area": "Construction Industry"
+    },
+    {
+        "name": "Scholarship A",
+        "gpa_minimum": 3.0,
+        "department": "Computer Science",
+        "program": "Undergraduate"
+    },
+        
+      
+    {
+        "name": "Scholarship B",
+        "gpa_minimum": 2.5,
+        "department": ["Electrical Engineering", "Computer Science"],
+        "program": ["Junior"]
+    } 
+    
+]

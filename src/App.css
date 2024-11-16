@@ -97,3 +97,35 @@ body {
   color: #28a745;
   margin-top: 15px;
 }
+
+/* Discount Card Styles */
+.discount-card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  padding: 20px;
+  margin: 20px;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.discount-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+}
+
+.discount-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.discount-card h3 {
+  margin-top: 10px;
+  color: #333;
+}
+
+.discount-card p {
+  color: #666;
+  font-size: 14px;
+}
+

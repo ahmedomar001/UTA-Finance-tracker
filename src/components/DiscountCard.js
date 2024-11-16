@@ -1,8 +1,9 @@
 import React from 'react';
 
-const DiscountCard = ({ title, description }) => {
+const DiscountCard = ({ title, description, imageUrl }) => {
   return (
-    <div style={{ margin: '10px', border: '1px solid black', padding: '10px' }}>
+    <div className="discount-card">
+      {imageUrl && <img src={imageUrl} alt={title} className="discount-card-img" />}
       <h3>{title}</h3>
       <p>{description}</p>
     </div>

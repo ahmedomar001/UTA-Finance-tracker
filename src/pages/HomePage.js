@@ -7,6 +7,7 @@ const HomePage = () => {
   const [goalAmount, setGoalAmount] = useState('');
   const [contributedAmount, setContributedAmount] = useState('');
   const [remainingAmount, setRemainingAmount] = useState('');
+  const [budgetDescription, setBudgetDescription] = useState('');  // State for budget description
 
   const addTransaction = transaction => {
     setTransactions([...transactions, transaction]);
@@ -16,7 +17,7 @@ const HomePage = () => {
     event.preventDefault();
     const newRemainingAmount = goalAmount - contributedAmount;
     setRemainingAmount(newRemainingAmount);
-    setContributedAmount(''); // Reset the contributed amount field
+    setContributedAmount('');
   };
 
   return (
@@ -34,7 +35,7 @@ const HomePage = () => {
               className="input-field"
               type="number"
               value={goalAmount}
-              onChange={(e) => setGoalAmount(e.target.value)}
+              onChange={e => setGoalAmount(e.target.value)}
               placeholder="Enter your budget goal"
               required
             />
@@ -45,10 +46,20 @@ const HomePage = () => {
               className="input-field"
               type="number"
               value={contributedAmount}
-              onChange={(e) => setContributedAmount(e.target.value)}
+              onChange={e => setContributedAmount(e.target.value)}
               placeholder="Amount contributed"
               required
             />
+          </div>
+          <div className="input-group">
+            <label className="input-label">Budget Description:</label>
+            <textarea
+              className="input-field"
+              value={budgetDescription}
+              onChange={e => setBudgetDescription(e.target.value)}
+              placeholder="Description"
+              rows="3"
+            ></textarea>
           </div>
           <button className="form-button" type="submit">Update Goal Progress</button>
         </form>
